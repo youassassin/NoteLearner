@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		6592102020FE2DF600771DFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6592101F20FE2DF600771DFE /* AppDelegate.swift */; };
-		6592102220FE2DF600771DFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6592102120FE2DF600771DFE /* ViewController.swift */; };
+		6592102220FE2DF600771DFE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6592102120FE2DF600771DFE /* MainViewController.swift */; };
 		6592102520FE2DF600771DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6592102320FE2DF600771DFE /* Main.storyboard */; };
 		6592102720FE2DF800771DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6592102620FE2DF800771DFE /* Assets.xcassets */; };
 		6592102A20FE2DF800771DFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6592102820FE2DF800771DFE /* LaunchScreen.storyboard */; };
 		6592103520FE2DF800771DFE /* NNoteLearnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6592103420FE2DF800771DFE /* NNoteLearnerTests.swift */; };
 		6592104020FE2DF800771DFE /* NNoteLearnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6592103F20FE2DF800771DFE /* NNoteLearnerUITests.swift */; };
+		6592112A20FE2F6200771DFE /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6592112920FE2F6100771DFE /* PreferencesViewController.swift */; };
+		6592112C20FE2FA400771DFE /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6592112B20FE2FA400771DFE /* Note.swift */; };
+		65A99E4C2130945100EEE0CA /* PNG in Resources */ = {isa = PBXBuildFile; fileRef = 65A99E4A2130945000EEE0CA /* PNG */; };
+		65A99E4D2130945100EEE0CA /* Sound in Resources */ = {isa = PBXBuildFile; fileRef = 65A99E4B2130945100EEE0CA /* Sound */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		6592101C20FE2DF600771DFE /* NNoteLearner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNoteLearner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6592101F20FE2DF600771DFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6592102120FE2DF600771DFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6592102120FE2DF600771DFE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		6592102420FE2DF600771DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6592102620FE2DF800771DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6592102920FE2DF800771DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		6592103B20FE2DF800771DFE /* NNoteLearnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNoteLearnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6592103F20FE2DF800771DFE /* NNoteLearnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNoteLearnerUITests.swift; sourceTree = "<group>"; };
 		6592104120FE2DF800771DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6592112920FE2F6100771DFE /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		6592112B20FE2FA400771DFE /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		65A99E4A2130945000EEE0CA /* PNG */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PNG; sourceTree = "<group>"; };
+		65A99E4B2130945100EEE0CA /* Sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sound; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,11 @@
 		6592101E20FE2DF600771DFE /* NNoteLearner */ = {
 			isa = PBXGroup;
 			children = (
+				65E2851E20FE79FA00D5C1F4 /* Resources */,
 				6592101F20FE2DF600771DFE /* AppDelegate.swift */,
-				6592102120FE2DF600771DFE /* ViewController.swift */,
+				6592102120FE2DF600771DFE /* MainViewController.swift */,
+				6592112920FE2F6100771DFE /* PreferencesViewController.swift */,
+				6592112B20FE2FA400771DFE /* Note.swift */,
 				6592102320FE2DF600771DFE /* Main.storyboard */,
 				6592102620FE2DF800771DFE /* Assets.xcassets */,
 				6592102820FE2DF800771DFE /* LaunchScreen.storyboard */,
@@ -123,6 +134,15 @@
 				6592104120FE2DF800771DFE /* Info.plist */,
 			);
 			path = NNoteLearnerUITests;
+			sourceTree = "<group>";
+		};
+		65E2851E20FE79FA00D5C1F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65A99E4A2130945000EEE0CA /* PNG */,
+				65A99E4B2130945100EEE0CA /* Sound */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A99E4C2130945100EEE0CA /* PNG in Resources */,
 				6592102A20FE2DF800771DFE /* LaunchScreen.storyboard in Resources */,
+				65A99E4D2130945100EEE0CA /* Sound in Resources */,
 				6592102720FE2DF800771DFE /* Assets.xcassets in Resources */,
 				6592102520FE2DF600771DFE /* Main.storyboard in Resources */,
 			);
@@ -256,8 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6592102220FE2DF600771DFE /* ViewController.swift in Sources */,
+				6592102220FE2DF600771DFE /* MainViewController.swift in Sources */,
 				6592102020FE2DF600771DFE /* AppDelegate.swift in Sources */,
+				6592112A20FE2F6200771DFE /* PreferencesViewController.swift in Sources */,
+				6592112C20FE2FA400771DFE /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
